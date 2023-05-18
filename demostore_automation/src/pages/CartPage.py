@@ -1,8 +1,8 @@
 
 
-from pioneers_store.src.selenium_extended.SeleniumExtended import SeleniumExtended
-from pioneers_store.src.pages.locators.CartPageLocators import CartPageLocators
-from pioneers_store.src.configs.MainConfigs import MainConfigs
+from demostore_automation.src.selenium_extended.SeleniumExtended import SeleniumExtended
+from demostore_automation.src.pages.locators.CartPageLocators import CartPageLocators
+from demostore_automation.src.configs.MainConfigs import MainConfigs
 
 
 class CartPage(CartPageLocators):

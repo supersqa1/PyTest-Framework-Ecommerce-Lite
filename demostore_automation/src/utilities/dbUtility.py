@@ -3,8 +3,8 @@
 import pymysql
 import os
 import logging as logger
-from pioneers_store.src.utilities.credentialsUtility import CredentialsUtility
-from pioneers_store.src.configs.MainConfigs import MainConfigs
+from demostore_automation.src.utilities.credentialsUtility import CredentialsUtility
+from demostore_automation.src.configs.MainConfigs import MainConfigs
 
 class DBUtility(object):
 

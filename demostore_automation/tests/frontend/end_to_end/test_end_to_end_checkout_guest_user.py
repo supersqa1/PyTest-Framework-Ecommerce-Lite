@@ -1,12 +1,12 @@
 
 import pytest
 
-from pioneers_store.src.pages.HomePage import HomePage
-from pioneers_store.src.pages.CartPage import CartPage
-from pioneers_store.src.pages.Header import Header
-from pioneers_store.src.pages.CheckoutPage import CheckoutPage
-from pioneers_store.src.pages.OrderReceivedPage import OrderReceivedPage
-from pioneers_store.src.configs.MainConfigs import MainConfigs
+from demostore_automation.src.pages.HomePage import HomePage
+from demostore_automation.src.pages.CartPage import CartPage
+from demostore_automation.src.pages.Header import Header
+from demostore_automation.src.pages.CheckoutPage import CheckoutPage
+from demostore_automation.src.pages.OrderReceivedPage import OrderReceivedPage
+from demostore_automation.src.configs.MainConfigs import MainConfigs
 
 
 pytestmark = [pytest.mark.feregression, pytest.mark.fesmoke, pytest.mark.end_to_end]

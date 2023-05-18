@@ -1,9 +1,9 @@
 
-from pioneers_store.src.pages.locators.MyAccountSignedOutPageLocators import MyAccountSignedOutPageLocators
+from demostore_automation.src.pages.locators.MyAccountSignedOutPageLocators import MyAccountSignedOutPageLocators
 
-from pioneers_store.src.selenium_extended.SeleniumExtended import SeleniumExtended
+from demostore_automation.src.selenium_extended.SeleniumExtended import SeleniumExtended
 
-from pioneers_store.src.configs.MainConfigs import MainConfigs
+from demostore_automation.src.configs.MainConfigs import MainConfigs
 
 class MyAccountSignedOutPage(MyAccountSignedOutPageLocators):
 

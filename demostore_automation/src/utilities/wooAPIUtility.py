@@ -1,6 +1,6 @@
 
-from pioneers_store.src.configs.MainConfigs import MainConfigs
-from pioneers_store.src.utilities.credentialsUtility import CredentialsUtility
+from demostore_automation.src.configs.MainConfigs import MainConfigs
+from demostore_automation.src.utilities.credentialsUtility import CredentialsUtility
 from woocommerce import API
 import os
 import logging as logger

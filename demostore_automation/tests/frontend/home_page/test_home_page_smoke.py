@@ -1,7 +1,7 @@
 
 import pytest
-from pioneers_store.src.pages.HomePage import HomePage
-from pioneers_store.src.pages.Header import Header
+from demostore_automation.src.pages.HomePage import HomePage
+from demostore_automation.src.pages.Header import Header
 
 
 pytestmark = [pytest.mark.feregression, pytest.mark.fesmoke, pytest.mark.home_page]

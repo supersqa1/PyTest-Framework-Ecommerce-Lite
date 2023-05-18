@@ -1,7 +1,7 @@
 
 
-from pioneers_store.src.selenium_extended.SeleniumExtended import SeleniumExtended
-from pioneers_store.src.pages.locators.components.NotificationBarLocators import NotificationBarLocators
+from demostore_automation.src.selenium_extended.SeleniumExtended import SeleniumExtended
+from demostore_automation.src.pages.locators.components.NotificationBarLocators import NotificationBarLocators
 
 
 

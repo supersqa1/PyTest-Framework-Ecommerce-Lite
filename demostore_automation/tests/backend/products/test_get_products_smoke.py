@@ -1,8 +1,8 @@
 
 import pytest
-from pioneers_store.src.dao.products_dao import ProductsDAO
-from pioneers_store.src.api_helpers.ProductsAPIHelper import ProductsAPIHelper
-from pioneers_store.src.utilities.wooAPIUtility import WooAPIUtility
+from demostore_automation.src.dao.products_dao import ProductsDAO
+from demostore_automation.src.api_helpers.ProductsAPIHelper import ProductsAPIHelper
+from demostore_automation.src.utilities.wooAPIUtility import WooAPIUtility
 import logging as logger
 
 pytestmark = [pytest.mark.beregression, pytest.mark.besmoke, pytest.mark.products_api]

@@ -1,6 +1,6 @@
 
-from pioneers_store.src.selenium_extended.SeleniumExtended import SeleniumExtended
-from pioneers_store.src.pages.locators.OrderReceivedPageLocators import OrderReceivedPageLocators
+from demostore_automation.src.selenium_extended.SeleniumExtended import SeleniumExtended
+from demostore_automation.src.pages.locators.OrderReceivedPageLocators import OrderReceivedPageLocators
 
 class OrderReceivedPage(OrderReceivedPageLocators):
 

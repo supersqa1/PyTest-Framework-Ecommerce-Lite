@@ -16,7 +16,7 @@ RUN python3 -m pip install -r requirements.txt
 
 COPY . .
 
-WORKDIR /automation/pioneers_store
+WORKDIR /automation/demostore_automation
 ENTRYPOINT ["python3", "-m", "pytest", "tests"]
 
 #CMD []

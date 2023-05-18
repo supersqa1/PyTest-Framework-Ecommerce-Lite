@@ -1,6 +1,6 @@
 
 import pytest
-from pioneers_store.src.pages.MyAccountSignedOutPage import MyAccountSignedOutPage
+from demostore_automation.src.pages.MyAccountSignedOutPage import MyAccountSignedOutPage
 
 pytestmark = [pytest.mark.feregression, pytest.mark.fesmoke, pytest.mark.my_account]
 

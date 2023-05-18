@@ -1,5 +1,5 @@
 
-from pioneers_store.src.utilities.wooAPIUtility import WooAPIUtility
+from demostore_automation.src.utilities.wooAPIUtility import WooAPIUtility
 
 
 class ProductsAPIHelper:

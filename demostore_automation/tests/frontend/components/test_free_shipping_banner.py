@@ -2,11 +2,11 @@
 
 import pytest
 
-from pioneers_store.src.pages.HomePage import HomePage
-from pioneers_store.src.pages.CartPage import CartPage
-from pioneers_store.src.pages.components.NotificationBar import NotificationBar
-from pioneers_store.src.pages.CheckoutPage import CheckoutPage
-from pioneers_store.src.pages.MyAccountSignedOutPage import MyAccountSignedOutPage
+from demostore_automation.src.pages.HomePage import HomePage
+from demostore_automation.src.pages.CartPage import CartPage
+from demostore_automation.src.pages.components.NotificationBar import NotificationBar
+from demostore_automation.src.pages.CheckoutPage import CheckoutPage
+from demostore_automation.src.pages.MyAccountSignedOutPage import MyAccountSignedOutPage
 
 
 @pytest.mark.notificationbar

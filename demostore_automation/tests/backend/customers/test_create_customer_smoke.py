@@ -1,9 +1,9 @@
 
 import logging as logger
 import pytest
-from pioneers_store.src.utilities.genericUtilities import generate_random_email_and_password
-from pioneers_store.src.utilities.wooAPIUtility import WooAPIUtility
-from pioneers_store.src.dao.customers_dao import CustomersDAO
+from demostore_automation.src.utilities.genericUtilities import generate_random_email_and_password
+from demostore_automation.src.utilities.wooAPIUtility import WooAPIUtility
+from demostore_automation.src.dao.customers_dao import CustomersDAO
 
 
 pytestmark = [pytest.mark.beregression, pytest.mark.besmoke, pytest.mark.customers_api]
