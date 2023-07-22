@@ -116,9 +116,11 @@ export DB_PASSWORD=root
 ## Run tests
 #### To run all tests
 ** Make sure virtual environment is active
+** Set PYTHONPATH variable
 ** Explore the 'runner.sh' (For Mac/Linux) and consider using it.
 
 ```commandline
+export PYTHONPATH=/<path>/<to>/demostore-pytest-base
 cd demostore_automation
 python3 -m pytest tests
 ```
