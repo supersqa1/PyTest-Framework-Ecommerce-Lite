@@ -76,6 +76,11 @@ For 'Windows' using 'CMD' run the 'variables_local.bat' file.
 <path to file>\variables_local.bat
 ```
 
+For 'Windows' using 'PowerShell' run the 'variables_local.bat' file.
+```commandline
+.\variables_local.ps1
+```
+
 Here are the variables that must be set
 (For Windows on CMD replace 'export' with 'set')
 ```commandline
