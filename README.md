@@ -121,9 +121,9 @@ Follow the comprehensive written guide to set up a local testing environment:
 #### Video Tutorial Series
 Watch the step-by-step video series:
 
-1. [Part 1: Installing WordPress](https://www.youtube.com/watch?v=KhLGXIxeJLI)
-2. [Part 2: Configuring The Site](https://www.youtube.com/watch?v=w47JR3aoTNw)
-3. [Part 3: Verifying API and Frontend Checkout](https://www.youtube.com/watch?v=qwCY8UEWqqM)
+1. [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Part 1: Installing WordPress](https://www.youtube.com/watch?v=KhLGXIxeJLI)
+2. [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Part 2: Configuring The Site](https://www.youtube.com/watch?v=w47JR3aoTNw)
+3. [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Part 3: Verifying API and Frontend Checkout](https://www.youtube.com/watch?v=qwCY8UEWqqM)
 
 These resources guide users through:
 - Setting up a local development environment
@@ -386,9 +386,9 @@ Each pipeline automatically:
 > You can view example pipelines in the screenshots section above.
 
 ## 📚 Learning Resources
-- [Creating E-Commerce Site for Testing - Part 1](https://www.youtube.com/watch?v=KhLGXIxeJLI)
-- [Creating E-Commerce Site for Testing - Part 2](https://www.youtube.com/watch?v=w47JR3aoTNw)
-- [Creating E-Commerce Site for Testing - Part 3](https://www.youtube.com/watch?v=qwCY8UEWqqM)
+- [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Creating E-Commerce Site for Testing - Part 1](https://www.youtube.com/watch?v=KhLGXIxeJLI)
+- [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Creating E-Commerce Site for Testing - Part 2](https://www.youtube.com/watch?v=w47JR3aoTNw)
+- [<img src="https://img.icons8.com/color/24/000000/youtube-play.png" width="20"/> Creating E-Commerce Site for Testing - Part 3](https://www.youtube.com/watch?v=qwCY8UEWqqM)
 
 ## 📞 Support
 For questions or support, please contact: [admas@supersqa.com](mailto:admas@supersqa.com)
