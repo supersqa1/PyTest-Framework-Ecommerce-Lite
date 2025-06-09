@@ -1,4 +1,4 @@
-# E-commerce Site Test Framework - Base
+# QA Automation Framework for E-Commerce Testing 🚀
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3.13%2B-blue" alt="Python Version">
@@ -317,4 +317,78 @@ Allure reports provide a more sophisticated and visually appealing way to analyz
 The process involves three sequential steps:
 
 1. First, run tests and collect Allure results:
+```bash
+cd ssqatest
+python3 -m pytest tests --alluredir=./allure-results
 ```
+
+2. Then, generate the HTML report from the collected results:
+```bash
+allure generate ./allure-results -o ./allure-report --clean
+```
+
+3. Finally, you can view the report in one of two ways:
+   - Serve the report locally (temporary server):
+   ```bash
+   allure serve ./allure-results
+   ```
+   - Or open the generated HTML report directly:
+   ```bash
+   open ./allure-report/index.html  # On Mac
+   # or
+   start ./allure-report/index.html  # On Windows
+   ```
+
+> **Note**: The `allure serve` command creates a temporary web server to view the report, while `allure generate` creates static HTML files that can be shared or hosted.
+
+#### Allure Report Features
+<div align="center">
+  <img src="docs/images/allure-dashboard.png" alt="Allure Dashboard" width="800">
+  <p><em>Allure Report Dashboard showing test execution overview</em></p>
+  
+
+</div>
+
+Allure reports provide:
+- Test execution history
+- Detailed test case information
+- Step-by-step test execution
+- Screenshots and attachments
+- Test categorization and grouping
+- Historical trends and statistics
+
+### Choosing Between Report Types
+- Use **HTML reports** for quick, simple test result viewing
+- Use **JUnit reports** for CI/CD integration and test result analysis
+- Use **Allure reports** for detailed analysis, historical trends, and beautiful visualization
+
+## 🐳 Docker Support
+Run tests in a containerized environment:
+```bash
+./run_tests_in_docker.sh
+```
+
+## 📈 CI/CD Integration
+
+This framework integrates with:
+- **GitLab CI** via `.gitlab-ci.yml`
+- **Jenkins** using a `Jenkinsfile` located in the root directory
+- **GitHub Actions** using `.github/workflows/tests.yml`
+
+Each pipeline automatically:
+- Installs dependencies
+- Activates the Python virtual environment
+- Loads environment variables securely
+- Runs frontend and backend test suites
+- Publishes reports (HTML, JUnit, Allure)
+- Sends results to the Automation Dashboard (if configured)
+
+> You can view example pipelines in the screenshots section above.
+
+## 📚 Learning Resources
+- [Creating E-Commerce Site for Testing - Part 1](https://www.youtube.com/watch?v=KhLGXIxeJLI)
+- [Creating E-Commerce Site for Testing - Part 2](https://www.youtube.com/watch?v=w47JR3aoTNw)
+- [Creating E-Commerce Site for Testing - Part 3](https://www.youtube.com/watch?v=qwCY8UEWqqM)
+
+## 📞 Support
+For questions or support, please contact: [admas@supersqa.com](mailto:admas@supersqa.com)
