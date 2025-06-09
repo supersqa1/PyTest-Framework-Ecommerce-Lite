@@ -134,15 +134,10 @@ These resources guide users through:
 - Verifying the checkout process
 
 ### Quick Start
-1. Clone the repository (choose one based on your preferred CI/CD platform):
+1. Clone the repository:
 ```bash
-# For GitHub
-git clone https://github.com/supersqa1/qa-bootcamp-framework.git
-
-# For GitLab
-git clone git@gitlab.com:ssqagroup1/qa-bootcamp-framework.git
-
-cd qa-bootcamp-framework
+git clone git@github.com:supersqa1/PyTest-Framework-Ecommerce-Lite.git
+cd PyTest-Framework-Ecommerce-Lite
 ```
 
 > **Note**: The same codebase is maintained in both GitHub and GitLab to provide hands-on experience with different CI/CD platforms. Choose the repository that aligns with your learning goals:
